@@ -23,7 +23,7 @@ od obci±¿enia systemu. Mo¿e byæ u¿ywany poprzez ACPI oraz CPUfreq.
 
 %build
 %{__make} \
-	CC=%{__cc} \
+	CC="%{__cc}" \
 	CFLAGS="%{rpmcflags} -Wall -DTEST"
 
 %install
@@ -42,5 +42,5 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc README
 %attr(755,root,root) %{_bindir}/*
-%config(noreplace) %{_sysconfdir}/*.conf
+%config(noreplace) %verify(not md5 mtime size) %{_sysconfdir}/*.conf
 %{_mandir}/man1/*.1*
