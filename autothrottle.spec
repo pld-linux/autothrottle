@@ -1,5 +1,5 @@
 Summary:	autothrottle throttles your CPU
-Summary(pl):	autothrottle - regulacja prêdko¶ci procesora
+Summary(pl.UTF-8):   autothrottle - regulacja prÄ™dkoÅ›ci procesora
 Name:		autothrottle
 Version:	1.0
 Release:	1
@@ -14,9 +14,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Autothrottle is a daemon that throttles your CPU according to the
 system load. It can be used with both ACPI and CPUfreq throttling.
 
-%description -l pl
-Autothrottle jest demonem, który reguluje prêdko¶æ procesora zale¿nie
-od obci±¿enia systemu. Mo¿e byæ u¿ywany poprzez ACPI oraz CPUfreq.
+%description -l pl.UTF-8
+Autothrottle jest demonem, ktÃ³ry reguluje prÄ™dkoÅ›Ä‡ procesora zaleÅ¼nie
+od obciÄ…Å¼enia systemu. MoÅ¼e byÄ‡ uÅ¼ywany poprzez ACPI oraz CPUfreq.
 
 %prep
 %setup -q
