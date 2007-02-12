@@ -1,5 +1,5 @@
 Summary:	autothrottle throttles your CPU
-Summary(pl.UTF-8):   autothrottle - regulacja prędkości procesora
+Summary(pl.UTF-8):	autothrottle - regulacja prędkości procesora
 Name:		autothrottle
 Version:	1.0
 Release:	1
